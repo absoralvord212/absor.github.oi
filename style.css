@@ -1,0 +1,59 @@
+h1 {
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+body {
+    /* background-color: #C3C6BD; */
+    font-family: sans-serif;
+    background-image: url("img/apple-background-connection-399161.jpg");
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-position: top; */
+    /* background: url("img/apple-background-connection-399161.jpg"); */
+}
+
+#text1 {
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+#text2 {
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+/* kondisi normal */
+.menubar:link {
+    background: goldenrod;
+    color: white;
+
+}
+
+/*  kondisi setelah dikunjungi*/
+.menubar:visited {
+    background: rgb(7, 226, 55);
+
+}
+
+/* kondisi hover mouse berada diatasnya */
+.menubar:hover {
+    background: rgb(13, 167, 238);
+
+}
+
+/* kondisi sedang diklik */
+.menubar:active {
+    background: rgb(219, 14, 202);
+
+}
